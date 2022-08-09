@@ -1,0 +1,26 @@
+{
+  "name": "mg-random-core",
+  "version": "1.0.0",
+  "description": "BCEL Digital Signature API",
+  "main": "main.js",
+  "author": "Pitpy BPSS",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon main.js && NODE_ENV=development",
+    "start": "nodemon app.js NODE_ENV=production",
+    "pro": "pm2 startOrRestart ecosystem.config.js --env production"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "easy-ftp": "^0.4.1",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  }
+}

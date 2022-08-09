@@ -1,3 +1,4 @@
+// app controller
 const db = require("../configs/db.config");
 
 const getPages = (req, res) => {
